@@ -1,0 +1,4 @@
+# Staging preview for stakeholder review - not the production card location.
+# Keep search engines out so these URLs never compete with the real cards.
+User-agent: *
+Disallow: /
