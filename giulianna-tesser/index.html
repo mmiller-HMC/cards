@@ -51,13 +51,15 @@
      logo carries a matching top margin to sit exactly on the white space. */
   .brand-logo { height:auto; max-height:100px; max-width:50%; object-fit:contain;
                  object-position:right top; margin-top:54px; flex:0 1 auto; }
+  /* 154px: the header starts 54px up inside the banner and the brand logo is
+     100px tall, so an avatar of 54 + 100 ends exactly level with the logo. */
   .avatar {
-    width:112px; height:112px; border-radius:50%; object-fit:cover; display:block;
+    width:154px; height:154px; border-radius:50%; object-fit:cover; display:block;
     border:4px solid #fff; box-shadow:0 6px 18px rgba(27,24,69,.18); background:var(--tint);
   }
   .avatar.mono {
     display:flex; align-items:center; justify-content:center;
-    font-size:38px; font-weight:700; letter-spacing:1px; color:#fff;
+    font-size:52px; font-weight:700; letter-spacing:1px; color:#fff;
     background:linear-gradient(135deg,var(--brand),var(--brand3));
   }
   h1 { font-size:25px; line-height:1.2; margin:16px 0 3px; letter-spacing:-.02em; }
